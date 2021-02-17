@@ -1,7 +1,7 @@
 import random # we need to use this module to generate random numbers #
 def isPrime(num): # we will define a new function which takes a number as a parameter called "num"
   if num <= 1: #checking if number is lesser or equal to 1;
-    return False # returning false since it is 1 and 0 are not prime numbers
+    return False # returning false since  1 and 0 are not prime numbers
   elif num == 2: # checking if num equals to 2
     return True # returns true since it is Prime
   for i in range(2, num): # For every iteration of loop; i increases by 1 while it is between 2 and given number
